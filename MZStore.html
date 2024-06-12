@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MZ Store Toko Herbal</title>
+    <link rel="canonical" href="https://MZStore.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="MZ Store">
+    <meta property="og:url" content="https://MZStore.com/">
+    <link href="img/logo.png" rel="icon">
+    <link href=""img/logo.jpg" rel=""appel-touch-icon">
+    <style>
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            color: rgb(16, 81, 5);
+            margin: 0;
+            padding: 0;
+            background-image: url('img/bg.jpeg');
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #4CAF50;
+            padding: 1em 2em;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .navbar .logo img {
+            height: 50px;
+        }
+        .navbar .menu {
+            display: flex;
+            gap: 1em;
+        }
+        .navbar a {
+            color: rgb(236, 241, 236);
+            text-decoration: none;
+            padding: 0.5em 1em;
+            transition: background-color 0.3s;
+        }
+        .navbar a:hover {
+            background-color: #45a049;
+        }
+        .navbar .contact-info {
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+        .hero {
+            background-image: url('path/to/your/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            color: rgb(15, 115, 92);
+            text-align: center;
+            padding: 4em 2em;
+        }
+        .hero h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+            margin: 0.5em 0 1em 0;
+        }
+        .hero .cta-button {
+            background-color: #ff5722;
+            color: white;
+            padding: 1em 2em;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .hero .cta-button:hover {
+            background-color: #e64a19;
+        }
+        .content {
+            padding: 2em;
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 2em;
+        }
+        .footer {
+            color: rgb(10, 121, 77);
+            text-align: center;
+            padding: 1em;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            max-width: 400px;
+            margin: auto;
+        }
+        form input, form select, form textarea {
+            padding: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        form input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+        .testimony-slider {
+            position: relative;
+            max-width: 600px;
+            margin: auto;
+            overflow: hidden;
+        }
+        .testimony-slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .testimony-slide {
+            min-width: 100%;
+            box-sizing: border-box;
+        }
+        .testimony-slide img {
+            width: 100%;
+            display: block;
+        }
+        .slider-navigation {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+        .slider-navigation button {
+            background-color: rgba(248, 240, 240, 0.5);
+            border: none;
+            color: rgb(15, 9, 9);
+            padding: 1em;
+            cursor: pointer;
+        }
+        .centered-img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <link href="img/log.png" rel="icon">
+    <link href=""img/srf.jpg" rel=""appel-touch-icon">
+    <div class="navbar">
+        <div class="logo">
+            <img src="img/logo.png" alt="MZ Store Logo">
+        </div>
+        <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#profil">Profil</a>
+            <a href="#visi-misi">Visi & Misi</a>
+            <a href="#kontak">Kontak</a>
+            <a href="#pesan">Pesan</a>
+            <a href="#testimony">Testimony</a>
+            <a href="#konsultasi">Konsultasi</a>
+        </div>
+        <div class="contact-info">
+            <a href="https://berdu.id/cek-resi">Lacak Pesanan</a>
+            <span> | </span>
+            <a href="https://berdu.id/cek-ongkir">Cek Ongkir</a>
+            <span> | </span>
+            <a href="https://api.whatsapp.com/send/?phone=6289502567788">0895-0256-7788</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="hero">
+            <h1>Home</h1>
+                <p><h2>Selamat datang di MZ Store Toko Herbal. 
+                    <br>Kami menyediakan <b>"Sarafinz"</b> produk herbal Asam Urat berkualitas untuk kesehatan Anda.</h2>
+                    <h1> Jangan Tunggu Sampai Terlambat, Wujudkan Hidup Sehat Tanpa Asam Urat!
+                        <br> <br><img src="img/Assets-sarafinz-13-892x1024.webp" class="centered-img"  style="max-width: 500px; max-height: 500px;">
+                        Biaya jauh lebih terjangkau berkali-kali lipat!
+            <h1>Terbuat dari 100% Bahan Herbal Indonesia</h1>
+            <p>Seluruh produk MZ Store telah bersertifikat BPOM dan halal. Aman dikonsumsi untuk segala usia. 
+                <br>Sarafinz adalah herbal yang diformulasikan untuk Penderita Asam Urat yang telah terbukti berkhasiat,
+                <br> dibuat dengan bahan alami oleh ahli herbal serta telah teruji klinis dan berizin BPOM.
+            </p><br>
+        
+            <a href="https://wa.me/6289502567788?text=Halo%20saya%20ingin%20pesan%20obat%20herbal%20Safrinaz" class="cta-button">Shop Now</a>
+        <div class="content">
+            <div id="home" class="section">
+                
+                        <img src="img/Assets-sarafinz-17-636x1024.webp" alt="Paket 1" class="centered-img" style="max-width: 500px; max-height: 500px;">
+                        <img src="img/Assets-sarafinz-18.webp" alt="Paket 1" class="centered-img" style="max-width: 500px; max-height: 500px;">
+                        <img src="img/PAKET-1-BOTOL-1024x1024.webp" alt="Paket 1" class="centered-img" style="max-width: 500px; max-height: 500px;"><br>
+                        <img src="img/PAKET2.webp" alt="Paket 1" class="centered-img" style="max-width: 500px; max-height: 500px;">
+                    </h2>
+                    <br>
+                    <img src="img/bpom.png" alt="Sertifikat BPOM" class="centered-img">
+                    
+                </p>
+            </div>
+
+            <div id="profil" class="section">
+                <h2>Profil</h2>
+                <p>MZ Store Toko Herbal didirikan pada tahun 2020
+                    <br> dengan tujuan menyediakan produk herbal Asam Urat terbaik untuk masyarakat. 
+                    <br> dan bisa di jangkau untuk seluruh wilayah di Indonesia</p>
+            </div>
+
+            <div id="visi-misi" class="section">
+                <h2>Visi & Misi</h2>
+                <p>Visi kami adalah menjadi toko herbal terpercaya yang menyediakan produk berkualitas
+                    <br> Misi kami adalah memberikan pelayanan terbaik dan edukasi 
+                    <br>tentang manfaat herbal kepada pelanggan.</p>
+            </div>
+
+            <div id="kontak" class="section">
+                <h2>Kontak</h2>
+                <p>Email: @mzstore.com</p>
+                <p>Telepon: +62 895 0256 7788</p>
+                <p>Alamat: Kp.Cipeuteuy Desa Kabandungan Sukabumi Jawa Barat</p>
+            </div>
+
+            <div id="pesan" class="section">
+                <h2>Pesan</h2>
+                <form id="orderForm">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="whatsapp">WhatsApp:</label>
+                    <input type="text" id="whatsapp" name="whatsapp" required>
+                    
+                    <label for="package">Pilih Paket:</label>
+                    <select id="package" name="package" required>
+                        <option value="Paket_1">1 botol Sarafinz Rp.129.000</option>
+                        <option value="Paket_2">2 botol Sarafinz Rp.229.000</option>
+                    </select>
+
+                    <label for="payment">Metode Bayar:</label>
+                    <select id="payment" name="payment" required>
+                        <option value="Transfer_Bank">Transfer Bank Gratis Ongkir</option>
+                        <option value="COD">COD (Cash on Delivery)</option>
+                    </select>
+
+                    <label for="notabot">Tulis angka 7 untuk verifikasi:</label>
+                    <input type="text" id="notabot" name="notabot" required>
+
+                    <input type="submit" value="Pesan">
+                </form>
+            </div>
+
+            <div id="testimony" class="section">
+                <h2>Testimony</h2>
+                <div class="testimony-slider">
+                    <div class="testimony-slides">
+                        <div class="testimony-slide">
+                            <img src="img/Testimoni-1-1024x1024.jpg" alt="Testimonial 1">
+                        </div>
+                        <div class="testimony-slide">
+                            <img src="img/Testimoni-2-1024x1024.jpg" alt="Testimonial 2">
+                        </div>
+                        <div class="testimony-slide">
+                            <img src="img/Testimoni-3-1024x1024.png" alt="Testimonial 3">
+                        </div>
+                        <div class="testimony-slide">
+                            <img src="img/Testimoni-4-1024x1024.png" alt="Testimonial 4">
+                        </div>
+                    </div>
+                    <div class="slider-navigation">
+                        <button id="prev">&#10094;</button>
+                        <button id="next">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+                
+            <div id="konsultasi" class="section">
+                <h1>Konsultasi</h1>
+                <p>Untuk konsultasi mengenai produk herbal yang tepat untuk Anda, silakan hubungi kami melalui whatsapp. 
+                    <br><br> <img src="img/panah-down-1.gif"><br>                   
+                    <a href="https://wa.me/6289502567788?text=Hallo...%20saya%20ingin%20konsultasi">
+                        <img src="img/tombol-wa.png" alt="Konsultasi di WhatsApp" style="width:200px;height:auto;">
+                      </a>
+                      
+                </p> 
+   
+            </div>
+        </div>
+        <div><img src="img/sponsor.png" alt="sponsor" class="centered-img"></div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 MZ Store Toko Herbal. <br>Nurani Sya'dyah (222303014).</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            let slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                const slides = document.querySelectorAll('.testimony-slide');
+                slides.forEach(slide => slide.style.display = 'none');
+                slideIndex++;
+                if (slideIndex > slides.length) slideIndex = 1;
+                slides[slideIndex - 1].style.display = 'block';
+                setTimeout(showSlides, 3000); // Change image every 3 seconds
+            }
+
+            document.getElementById('prev').addEventListener('click', () => {
+                slideIndex -= 2;
+                if (slideIndex < 0) slideIndex = document.querySelectorAll('.testimony-slide').length - 1;
+                showSlides();
+            });
+
+            document.getElementById('next').addEventListener('click', () => {
+                showSlides();
+            });
+
+            document.getElementById('orderForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                const notabot = document.getElementById('notabot').value;
+                if (notabot != '7') {
+                    alert('Verifikasi gagal. Silakan coba lagi.');
+                    return;
+                }
+                const name = document.getElementById('name').value;
+                const whatsapp = document.getElementById('whatsapp').value;
+                const package = document.getElementById('package').value;
+                const payment = document.getElementById('payment').value;
+                const whatsappMessage = `Halo, saya ingin pesan:
+Nama: ${encodeURIComponent(name)}
+Whatsapp: ${encodeURIComponent(whatsapp)}
+Paket: ${encodeURIComponent(package)}
+Metode Bayar: ${encodeURIComponent(payment)}`;
+                const whatsappUrl = `https://wa.me/6289502567788?text=${encodeURIComponent(whatsappMessage)}`;
+                window.open(whatsappUrl, '_blank');
+            });
+        });
+    </script>
+</body>
+</html>
